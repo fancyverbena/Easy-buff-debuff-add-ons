@@ -6,3 +6,4 @@
 サポートサーバー
 https://discord.gg/cAW5EHYcC7
 ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
