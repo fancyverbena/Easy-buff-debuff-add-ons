@@ -1,20 +1,26 @@
 {
   "format_version": 2,
   "header": {
-    "description": "Easily give the effectver1.1.5",
-    "name": "Easily give the effect",
-    "uuid": "89f9dfff-0fb0-46db-aa15-fdac966649ec",
-    "version": [1, 1, 5],
-    "min_engine_version": [1, 20, 30]
+    "name": "Easy-buff-debuff-add-ons-1.1.5",
+    "description": "簡単にeffectつけれる！",
+    "uuid": "d78e2346-3812-48fc-94dc-7c8b9395d2bb",
+    "version": [ 1, 1, 5 ],
+    "min_engine_version": [ 1, 20, 30 ]
   },
   "modules": [
     {
-      "description": "Easily give the effectver1.1.5",
+      "version": [ 1, 1, 5 ],
+      "type": "data",
+      "uuid": "89f9dfff-0fb0-46db-aa15-fdac966649ec",
+      "description": "data module"
+    },
+    {
+      "version": [ 1, 1, 5 ],
       "type": "script",
       "language": "javascript",
+      "entry": "action-form/main.js",
       "uuid": "09371a58-9e94-4096-bad3-5580972ae3c8",
-      "version": [1, 1, 5],
-      "entry": "scripts/index.js"
+      "description": "script module"
     }
   ],
   "dependencies": [
