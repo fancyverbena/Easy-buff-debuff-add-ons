@@ -31,8 +31,24 @@ async function menu1(player) {
 
 /** @param {Player} player */
 async function menu2(player) {
+  form.button('スピード');
+  form.button('勤勉');
+  form.button('力');
+  form.button('回復');
+  form.button('跳躍');
+  form.button('再生');
+  form.button('耐性');
+  form.button('耐火');
+  form.button('水中呼吸');
+  form.button('暗視');
+  form.button('HPブースト');
+  form.button('吸収');
+  form.button('満腹度');
+  form.button('コンジットパワー');
+  form.button('低速落下');
+  form.button('村の英雄');
+  form.button('透明');
   const form = new ActionFormData();
-  form.button('バフ');
   const { canceled, selection } = await form.show(player);
   if (canceled) return;
   if (selection === 0) {
@@ -124,7 +140,19 @@ async function menu2(player) {
 /** @param {Player} player */
 async function menu3(player) {
   const form = new ActionFormData();
-  form.button('デバフ');
+  form.button('鈍化');
+  form.button('疲労');
+  form.button('ダメージ');
+  form.button('目まい');
+  form.button('目つぶし');
+  form.button('空腹');
+  form.button('弱体化');
+  form.button('毒');
+  form.button('衰弱');
+  form.button('浮遊');
+  form.button('致死毒');
+  form.button('凶兆');
+  form.button('暗闇');
   const { canceled, selection } = await form.show(player);
   if (canceled) return;
   if (selection === 0) {
