@@ -31,6 +31,7 @@ async function menu1(player) {
 
 /** @param {Player} player */
 async function menu2(player) {
+  const form = new ActionFormData();
   form.button('スピード');
   form.button('勤勉');
   form.button('力');
@@ -48,7 +49,6 @@ async function menu2(player) {
   form.button('低速落下');
   form.button('村の英雄');
   form.button('透明');
-  const form = new ActionFormData();
   const { canceled, selection } = await form.show(player);
   if (canceled) return;
   if (selection === 0) {
@@ -215,7 +215,7 @@ async function menu3(player) {
     player.runCommandAsync('effect @s bad_omen 600 5 true')
   }
   if (canceled) return;
-  if (Selection === 12){
+  if (selection === 12){
     player.sendMessage('暗闇を10分間与えました')
     player.runCommandAsync('effect @s darkness 600 5 true')
   }
