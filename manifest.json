@@ -4,29 +4,29 @@
     "name": "Easy-buff-debuff-add-ons-1.1.8",
     "description": "簡単にeffectつけれる！",
     "uuid": "9833b13f-5976-440f-8cb5-b1f7bd128bd2",
-    "version": [ 1, 1, 8 ],
-    "min_engine_version": [ 1, 20, 60 ]
+    "version": [ 1, 2, 0 ],
+    "min_engine_version": [ 1, 20, 70 ]
   },
   "modules": [
     {
-      "version": [ 1, 1, 8 ],
+      "version": [ 1, 2, 0 ],
       "type": "data",
-      "uuid": "a531184a-d739-4f83-b6a6-5246b9543c48",
+      "uuid": "121a6c6d-7132-4e4c-9815-f2ce05149e3b",
       "description": "data module"
     },
     {
-      "version": [ 1, 1, 8 ],
+      "version": [ 1, 2, 0 ],
       "type": "script",
       "language": "javascript",
       "entry": "scripts/main.js",
-      "uuid": "d11fbe5a-7ab6-4892-aff7-a69fcc8f8346",
+      "uuid": "e4f5b893-bfb3-4436-97f5-806af09da9d9",
       "description": "script module"
     }
   ],
   "dependencies": [
     {
       "module_name": "@minecraft/server",
-      "version": "1.9.0-beta"
+      "version": "1.10.0-beta"
     },
     {
       "module_name": "@minecraft/server-ui",
