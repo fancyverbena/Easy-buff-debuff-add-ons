@@ -7,4 +7,4 @@ https://discord.com/invite/TBUd8Jckdd<br />
 <br />
 最新のアップデート情報<br />
 Minercaft 1.20.70に対応しました<br />
-アイコンを追加しました<br />
+Minercaft Bedrock 1.20.60以下は導入できません<br />
